@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="gondasclient"
+version="2.0.0"
+displayName="Gondas Client"
+authors="Gondas"
+description='''
+Gondas Client - Advanced Minecraft Utility Mod
+
+Features:
+- Combat modules: KillAura, Velocity, Criticals, Reach, AimAssist
+- Movement modules: Fly, Speed, Step, HighJump, LongJump
+- Render modules: ESP, Tracers, Xray, Chams, FullBright
+- Player modules: AutoTotem, AutoArmor, AutoEat, AutoTool
+- World modules: Xray, Nuker, AutoMine, Breaker
+- Misc modules: HUD, Zoom, Timer, Spammer
+
+Optimized for mobile launchers: PojavLauncher, MCLauncher
+
+Press RIGHT SHIFT to open ClickGUI
+'''
+
+[[dependencies.gondasclient]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.gondasclient]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="CLIENT"
